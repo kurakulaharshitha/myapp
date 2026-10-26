@@ -1,0 +1,13 @@
+function Form() {
+  return (
+    <form>
+      <label>
+        Name:
+        <input type="text" placeholder="Enter your name" />
+      </label>
+      <button type="submit">Submit</button>
+    </form>
+  );
+}
+
+export default Form;
